@@ -80,15 +80,15 @@ class AwesomeDate {
           ret = ret += section
       }
       else if (letter === "s") {
-        section = this.seconds
+        section = this.secs
         ret = ret += section
       }
       else {
-
+        ret = ret += letter
       }
-      return ret
-    }
 
+    }
+    return ret
   }
 
 
